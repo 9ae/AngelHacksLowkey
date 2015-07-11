@@ -1,20 +1,29 @@
-<html ng-app="lowkey">
+<html ng-app="app">
 <head>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:300,400,500,700,400italic">
   <script src="libs/angular/angular.js"></script>
   <script src="js/main.js"></script>
   <title>Lowkey</title>
 </head>
 <body>
-<div>
-  <a>I'm Free</a>
-  <a>Post Event</a>
-</div>
+  <md-toolbar layout="row">
+     <div class="md-toolbar-tools">
+       <md-button hide-gt-sm class="md-icon-button">
+        I'm Free
+       </md-button>
+       <md-button hide-gt-sm class="md-icon-button">
+        Post Event
+       </md-button>
+     </div>
+   </md-toolbar>
 
 <div ng-controller="DashboardCtrl">
 
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-aria.min.js"></script>
 
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/0.9.4/angular-material.min.js"></script>
 </body>
 </html>
